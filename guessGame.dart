@@ -26,7 +26,7 @@ int prompt(String message) {
 }
 
 void guessGame() {
-  var count = 3;
+  var count = 2;
   do {
     var secret_number = getRandomNumber();
     var guess = prompt("Guess a number:");
